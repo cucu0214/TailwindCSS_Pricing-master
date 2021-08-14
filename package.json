@@ -1,0 +1,35 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "cross-env NODE_ENV=production webpack --config webpack.config.js",
+    "dev": "cross-env NODE_ENV=development webpack serve",
+    "clean": "rmdir /s dist"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.15.0",
+    "@babel/preset-env": "^7.15.0",
+    "@tailwindcss/forms": "^0.3.3",
+    "autoprefixer": "^10.3.1",
+    "babel-loader": "^8.2.2",
+    "compression-webpack-plugin": "^8.0.1",
+    "copy-webpack-plugin": "^9.0.1",
+    "cross-env": "^7.0.3",
+    "css-loader": "^6.2.0",
+    "cssnano": "^5.0.7",
+    "html-webpack-plugin": "^5.3.2",
+    "mini-css-extract-plugin": "^2.2.0",
+    "postcss": "^8.3.6",
+    "postcss-import": "^14.0.2",
+    "postcss-loader": "^6.1.1",
+    "tailwindcss": "^2.2.7",
+    "webpack": "^5.48.0",
+    "webpack-cli": "^4.7.2",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "dependencies": {}
+}
